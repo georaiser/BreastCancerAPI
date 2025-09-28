@@ -10,7 +10,7 @@ env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   GAR_LOCATION: ${{ secrets.GCP_ARTIFACT_REGISTRY_LOCATION }}
   GAR_REPOSITORY: ${{ secrets.GCP_ARTIFACT_REGISTRY_REPOSITORY }}
-  SERVICE_NAME: demo-iris-api
+  SERVICE_NAME: breast-cancer-api
 
 jobs:
   build-and-deploy:
