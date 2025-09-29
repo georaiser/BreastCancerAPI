@@ -25,7 +25,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: 🐞 Depurar Valores de Secrets
+      - name: Depurar Valores de Secrets
         run: |
           echo "Project ID usado: [${{ secrets.GCP_PROJECT_ID }}]"
           echo "GAR Location usado: [${{ secrets.GCP_ARTIFACT_REGISTRY_LOCATION }}]"
